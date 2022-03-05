@@ -10,7 +10,7 @@
             By creating an account, you agree to our&nbsp;<router-link :to="{ name: 'TOS' }">Terms of Service</router-link> 
           </div>
           <div class="row fit justify-center align-center">
-            and have read and understand the&nbsp;<a href="privacy-policy/" target="blank">Privacy Policy.</a> 
+            and have read and understand the&nbsp;<router-link :to="{ name: 'PrivacyPolicy' }">Privacy Policy.</router-link> 
           </div>
         </div>
         <q-form class="q-mt-lg" @submit.prevent="submitForm" >
