@@ -7,7 +7,7 @@
             Sign up to Best <span class="text-primary">Byte</span> 
           </div>
           <div class="row fit justify-center align-center q-mt-md">
-            By creating an account, you agree to our&nbsp;<a href="terms-of-service/" target="blank">Terms of Service</a> 
+            By creating an account, you agree to our&nbsp;<router-link :to="{ name: 'TOS' }">Terms of Service</router-link> 
           </div>
           <div class="row fit justify-center align-center">
             and have read and understand the&nbsp;<a href="privacy-policy/" target="blank">Privacy Policy.</a> 
