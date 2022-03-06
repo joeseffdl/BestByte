@@ -21,7 +21,9 @@
     "multer": "^1.4.4",
     "myql": "^1.0.0",
     "mysql2": "^2.3.3",
+    "netlify-lambda": "^2.0.15",
     "quasar": "^2.0.0",
+    "serverless-http": "^2.7.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0",
     "vuex": "^4.0.1"
