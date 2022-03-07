@@ -3,7 +3,7 @@ import express from "express";
 // import cors
 import cors from "cors";
 // import routes
-import Router from "../routes/routes.js";
+import Router from "./routes/routes.js";
 
 import serverless from "serverless-http";
  
